@@ -38,7 +38,7 @@ Authorization: OAuth <OAuth token>
           "self": "{{ host }}/v2/users/1234567890",
           "uid": 1234567890,
           "login": "<user_login>",
-          "trackerUid": 1234567890>,
+          "trackerUid": 1234567890,
           "passportUid": 1234567890,
           "firstName": "<First name>",
           "lastName": "<Last name>",
@@ -52,7 +52,8 @@ Authorization: OAuth <OAuth token>
           }
        ]
     ```
-
+
+
 
     {% cut "Response parameters" %}
 
